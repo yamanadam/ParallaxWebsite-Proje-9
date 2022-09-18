@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-.body {
+body,
+html {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.8rem;
@@ -12,19 +13,23 @@
   height: 100%;
 }
 
-.container1 {
-  height: 100vh;
-  background-image: url(./img/mevsim1.png);
+.container {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
+}
+
+.container1 {
+  height: 100vh;
+  background-image: url(./img/mevsim1.png);
+
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.heading1 {
+.heading {
   font-size: 3rem;
   letter-spacing: 0.5rem;
   color: white;
@@ -42,4 +47,69 @@
 
 .heading1_right {
   margin-right: 50px;
+}
+
+/************** PAGE 2 ***************/
+
+.section {
+  height: 30vh;
+
+  line-height: 29px;
+  font-size: 20px;
+  text-align: center;
+  padding: 1.5rem 5rem;
+}
+
+.section1 {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+}
+
+.container2 {
+  height: 70vh;
+  /* width: 100vw; */
+  background: url(./img/kış.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading-2 {
+  background-color: black;
+  padding: 0.7rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.2rem;
+  font-size: 30px;
+}
+
+.h2-left {
+  margin-left: 45px;
+}
+.h2-right {
+  margin-right: 35px;
+}
+
+/************** PAGE 3 ***************/
+
+.section2 {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.container3 {
+  height: 70vh;
+  background: url(./img/bahar.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
